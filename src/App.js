@@ -3,10 +3,21 @@ import './index.css';
 function App() {
     return (
         <div className="container">
-            <a href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <div href="#home" className="item">
+                Home
+            </div>
+            <div href="#home" className="item">
+                About
+            </div>
+            <div href="#home" className="item">
+                Work
+            </div>
+            <div href="#home" className="item">
+                Blog
+            </div>
+            <div href="#home" className="item">
+                Contact
+            </div>
         </div>
     );
 }
