@@ -2,7 +2,7 @@ import './index.css';
 
 function App() {
     return (
-        <div className="container">
+        <div className="navbar">
             <div href="#home" className="item">
                 Home
             </div>

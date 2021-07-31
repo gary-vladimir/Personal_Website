@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-.container {
+.navbar {
     display: flex;
     background-color: rebeccapurple;
     height: 65px;
