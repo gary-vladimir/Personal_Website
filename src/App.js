@@ -3,6 +3,9 @@ import './index.css';
 function App() {
     return (
         <div className="navbar">
+            <div>
+                <i className="fas fa-bars"></i>
+            </div>
             <div href="#home" className="item">
                 Home
             </div>
