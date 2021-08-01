@@ -1,28 +1,8 @@
 import './index.css';
+import NavBar from './components/NavBar';
 
 function App() {
-    return (
-        <div className="navbar">
-            <div>
-                <i className="fas fa-bars"></i>
-            </div>
-            <div href="#home" className="item">
-                Home
-            </div>
-            <div href="#home" className="item">
-                About
-            </div>
-            <div href="#home" className="item">
-                Work
-            </div>
-            <div href="#home" className="item">
-                Blog
-            </div>
-            <div href="#home" className="item">
-                Contact
-            </div>
-        </div>
-    );
+    return <NavBar />;
 }
 
 export default App;
