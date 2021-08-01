@@ -9,8 +9,12 @@ body {
     padding-left: 15px;
     font-family: 'Poppins', sans-serif;
     display: flex;
-    background-color: rebeccapurple;
     height: 65px;
+    background: linear-gradient(90.28deg, #e56b6f 49.76%, #ae2945 99.76%);
+    /* shadow */
+
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 .item {
