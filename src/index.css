@@ -28,3 +28,10 @@ body {
     color: white;
     cursor: pointer;
 }
+.burger {
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: none;
+}

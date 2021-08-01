@@ -1,7 +1,7 @@
 function NavBar() {
     return (
         <div className="navbar">
-            <div>
+            <div className="burger">
                 <i className="fas fa-bars"></i>
             </div>
             <div href="#home" className="item">
