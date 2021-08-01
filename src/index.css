@@ -35,3 +35,14 @@ body {
     top: 20px;
     display: none;
 }
+@media (max-width: 600px) {
+    .burger {
+        display: initial;
+    }
+    .navbar {
+        padding-left: 0;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+    }
+}
